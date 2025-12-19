@@ -52,7 +52,11 @@ Weak: {weak_count} ({weak_count/total*100:.1f}%)
 WEAK PASSWORDS IDENTIFIED (Top 5):
 """
         for i, row in weak_passwords.iterrows():
-            report += f"{i+1}. \"{row['Password']}\" - {', '.join(row['Vulnerabilities'])}\n"
+            number = i + 1
+            password = row["Password"]
+            vulnerabilities = ", ".join(row["Vulnerabilities"])
+
+            report += f'{number}. "{password}" - {vulnerabilities}\n'
             
         report += f"""
 SECURITY SCORE: {int(avg_score)}/100
