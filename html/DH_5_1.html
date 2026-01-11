@@ -1,0 +1,159 @@
+
+<html>
+<head>
+    <title>CSS Box Model – Complete Practice Lab</title>
+    <link rel="stylesheet" href="box.css">
+    <style>
+        /* =====================================================
+           GLOBAL STYLES (DO NOT EDIT)
+           ===================================================== */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        /* =====================================================
+           COMMON BOX STYLE
+           ===================================================== */
+        .box {
+            width: 300px;
+            background-color: #e6e6e6;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<h1>CSS Box Model – Complete Practice Lab</h1>
+<p style="text-align:center;">
+    Complete all tasks using <strong>padding, border, margin, and box-sizing</strong>.
+    Use DevTools to inspect the box model.
+</p>
+
+<!-- TASK 1 -->
+<div class="section">
+    <h2>Task 1: Basic Box Model</h2>
+    <div class="box task1">
+        Simple text content
+    </div>
+</div>
+
+<!-- TASK 2 -->
+<div class="section">
+    <h2>Task 2: Different Sides</h2>
+    <div class="box task2">
+        Left & right spacing should be larger
+    </div>
+</div>
+
+<!-- TASK 3 -->
+<div class="section">
+    <h2>Task 3: Vertical Spacing</h2>
+    <div class="box task3">
+        Control vertical spacing
+    </div>
+</div>
+
+<!-- TASK 4 -->
+<div class="section">
+    <h2>Task 4: Image Padding</h2>
+    <div class="box task4">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/AtomHeartMotherCover.jpeg" alt="sample image">
+        <p>Text should not touch border</p>
+    </div>
+</div>
+
+<!-- TASK 5 -->
+<div class="section">
+    <h2>Task 5: Box Sizing</h2>
+    <div class="box task5">
+        Keep total width 300px
+    </div>
+</div>
+
+<!-- TASK 6 -->
+<div class="section">
+    <h2>Task 6: Image Touching Border</h2>
+    <div class="box task6">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Pink_Floyd_-_Obscured_by_Clouds.jpg" alt="another sample image">
+        <p>Fix spacing using padding</p>
+    </div>
+</div>
+
+<!-- TASK 7 -->
+<div class="section">
+    <h2>Task 7: Separate Cards</h2>
+    <div class="box task7">Card One</div>
+    <div class="box task7">Card Two</div>
+</div>
+
+<!-- TASK 8 -->
+<div class="section">
+    <h2>Task 8: Padding or Margin?</h2>
+    <div class="box task8">
+        Text should not touch border
+    </div>
+</div>
+
+<!-- TASK 9 -->
+<div class="section">
+    <h2>Task 9: Fix Width</h2>
+    <div class="box task9">
+        Width must stay 300px
+    </div>
+</div>
+
+<!-- TASK 10 -->
+<div class="section">
+    <h2>Task 10: Image Card</h2>
+    <div class="box task10">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e4/FloydFC-Cover01.jpg" alt="third sample image">
+        <<F4><F5>h3>Card Title</h3>
+        <p>Spacing must look clean</p>
+    </div>
+</div>
+
+<!-- TASK 11 -->
+<div class="section">
+    <h2>Task 11: Horizontal Padding</h2>
+    <div class="box task11">
+        Left & right spacing only
+    </div>
+</div>
+
+<!-- TASK 12 -->
+<div class="section">
+    <h2>Task 12: Product Card (Final)</h2>
+    <div class="box task12">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png" alt="prod image">
+        <h3>Dark Side of the Moon - Pink Floyd</h3>
+        <p class="desc">An iconic progressive rock album exploring themes of conflict, greed, time, and mental illness, particularly relating to former band member Syd Barrett.</p>
+        <p class="price"><strong>~$99</strong></p>
+    </div>
+</div>
+
+</body>
+</html>
