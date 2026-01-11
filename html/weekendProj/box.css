@@ -1,0 +1,92 @@
+.task1 {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.task2 {
+  padding: 10px 40px;
+  border: 4px dashed blue;
+}
+
+.task3 {
+  padding-inline: 100px 10px; /* couldn't totally grasp what vertical spacing meant */ 
+  border: 1px solid red;
+}
+
+.task4 {
+  border: 1px solid black;
+  padding:40px 20px; 
+}
+
+.task5 {
+  box-sizing: border-box;
+  width: 300px;
+  border: 5px solid purple;
+  padding: 20px;
+}
+
+.task6 {
+  border: 2px solid teal;
+}
+
+.task6 p {
+  padding: 20px;
+}
+
+.task7 {
+  padding: 15px;
+  border: 1px solid black;
+  margin-bottom: 16px;
+}
+
+.task8 {
+  /* margin: 1px; >> did nothing */ 
+  padding: 20px;
+}
+
+.task9 {
+  width: 300px:
+  box-sizing: border-box;
+  padding: 40px;
+  border:3px solid green;
+
+}
+
+.task10 {
+  border: 2px solid red;
+  padding:16px;
+}
+
+.task10 h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.task10 p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+.task11 {
+  padding-inline: 40px;
+  border: 3px solid lightblue;
+
+}
+
+.task12 {
+  padding: 20px;
+  border: 3px dashed gold;
+}
+
+.task12 h3 {
+  text-align: justify;
+}
+
+.task12 .desc {
+  text-align: justify;
+}
+
+.task12 .price {
+  text-align: right;
+} 
