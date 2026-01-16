@@ -1,0 +1,138 @@
+/* Global Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    /* Deep black background */
+    color: #ffffff;
+    /* White text for contrast */
+    font-family: 'Segoe UI', user-select, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #111;
+    border-bottom: 2px solid #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.album-cover {
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff00de;
+    /* Prism pink accent on hover */
+    text-shadow: 0 0 8px rgba(255, 0, 222, 0.5);
+}
+
+/* Main Layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Main content left, sidebar right */
+    gap: 2rem;
+}
+
+/* Semantic Sections */
+section,
+article {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #0a0a0a;
+}
+
+h2,
+h3 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+}
+
+/* Article Specifics */
+article h3 {
+    color: #00ffff;
+    /* Cyan accent */
+}
+
+/* Aside Styling */
+aside {
+    background-color: #111;
+    padding: 1.5rem;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    border-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet) 1;
+    height: fit-content;
+}
+
+aside h3 {
+    color: #ffff00;
+    /* Yellow accent */
+}
+
+/* Multimedia Section */
+.multimedia-container {
+    margin-top: 1.5rem;
+}
+
+video,
+audio {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #444;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #333;
+}
+
+/* Utility for Grid on smaller screens */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
